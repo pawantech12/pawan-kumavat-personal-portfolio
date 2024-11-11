@@ -10,3 +10,8 @@
     background-color: #00BC91;
     border-radius: 10px;
 }
+
+.slick-track{
+    display: flex!important;
+    gap: 1.5rem;
+}
