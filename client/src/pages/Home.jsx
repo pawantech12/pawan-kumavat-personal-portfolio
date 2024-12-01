@@ -1,14 +1,4 @@
 import { useRef, useState } from "react";
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaSquareUpwork,
-} from "react-icons/fa6";
-import { HiOutlineMail } from "react-icons/hi";
-import { SiFreelancer } from "react-icons/si";
-
-import { Link } from "react-router-dom";
 
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
@@ -52,7 +42,7 @@ export const Home = () => {
 
         <EducationSection />
 
-        <PortfolioSection />
+        <PortfolioSection portfolioRef={portfolioRef} />
 
         <ContactSection />
       </main>
