@@ -12,10 +12,10 @@ import portfolio10 from "../img/portfolio10.jpg";
 const PortfolioData = [
   {
     id: 10,
-    title: "Saisio - SaaS Website in Progress",
+    title: "Saisio - Responsive SaaS Website",
     image: portfolio10,
     description:
-      "Currently building Saisio, a SaaS website using ReactJS and TailwindCSS. Key pages like Pricing, Contact, Signup, Login, FAQ, and Blog are live. The Home Page features interactive sections, animations, and tab transitions. Also implemented a clean 404 Not Found page for undefined routes.",
+      "Saisio is a fully responsive SaaS website built with ReactJS (Vite) and TailwindCSS, featuring a sleek UI/UX with smooth animations. It includes dynamic pages like Home, Pricing, Blog, Integrations, Register/Login, and more, offering a seamless user experience. This project is free to use and perfect for SaaS or web app inspiration.",
     link: "https://github.com/pawantech12/saisio-saas-website",
   },
   {
