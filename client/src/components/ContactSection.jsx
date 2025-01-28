@@ -60,7 +60,7 @@ const ContactSection = () => {
             </Link>
           </li>
           <li>
-            <Link to={"https://www.instagram.com/codewithpawan/"}>
+            <Link to={"https://www.instagram.com/pawantech12?igsh=YWpiYXJ5NjNqOWN5"}>
               <button
                 className="p-2 rounded-md bg-gray-200 text-gray-800 hover:bg-gray-600 hover:text-white transition-all ease-in-out duration-200"
                 aria-label="Follow me on Instagram"
