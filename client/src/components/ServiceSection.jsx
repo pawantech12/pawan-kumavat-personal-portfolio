@@ -13,6 +13,7 @@ import {
   TbSettingsCode,
   TbUserShield,
   TbWorldUpload,
+  GrServices,
 } from "../data/ServiceData";
 const ServiceSection = () => {
   let sliderRef = useRef(null);
@@ -33,6 +34,7 @@ const ServiceSection = () => {
     TbSettingsCode,
     TbUserShield,
     TbWorldUpload,
+    GrServices,
   };
 
   const settings = {

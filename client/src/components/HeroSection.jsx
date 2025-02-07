@@ -1,5 +1,5 @@
 import { IoHomeOutline } from "react-icons/io5";
-import hero from "../img/hero.png";
+import hero from "../img/hero.webp";
 import { Typewriter } from "react-simple-typewriter";
 import { FaCheckDouble } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -40,13 +40,10 @@ const HeroSection = ({ portfolioRef }) => {
           </span>
         </h1>
         <p className="text-zinc-600 text-sm sm:text-base">
-          I'm a versatile Web Developer with a passion for creating dynamic and
-          user-friendly web experiences. With expertise in HTML, CSS,
-          JavaScript, PHP, MySQL, and the MERN stack, I specialize in crafting
-          full-stack solutions that meet the unique needs of each project.
-          Whether it's building intuitive interfaces with TailwindCSS and
-          Bootstrap or developing robust back-end systems, I bring creativity
-          and technical excellence to every challenge.
+          💻 Full-Stack Web Developer with 4+ years of experience in MERN stack,
+          PHP, MySQL, TailwindCSS, Bootstrap, and Next.js. Skilled in API
+          development, authentication, e-commerce, and cloud storage, I build
+          fast, secure, and SEO-friendly web solutions. 🚀
         </p>
         <div className="flex flex-row items-center gap-8">
           <span className="flex items-center gap-2 text-zinc-600">

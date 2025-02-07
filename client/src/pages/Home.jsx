@@ -7,6 +7,8 @@ import SkillSection from "../components/SkillSection";
 import EducationSection from "../components/EducationSection";
 import PortfolioSection from "../components/PortfolioSection";
 import ContactSection from "../components/ContactSection";
+import TestimonialSection from "../components/TestimonialSection";
+import ExperienceSection from "../components/ExperienceSection";
 
 export const Home = () => {
   // Create a ref for the portfolio section
@@ -41,8 +43,10 @@ export const Home = () => {
         <SkillSection />
 
         <EducationSection />
+        <ExperienceSection />
 
         <PortfolioSection portfolioRef={portfolioRef} />
+        <TestimonialSection />
 
         <ContactSection />
       </main>

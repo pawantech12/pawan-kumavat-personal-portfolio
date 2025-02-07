@@ -22,40 +22,18 @@ const AboutSection = () => {
         About <span className="text-[#00BC91]">Me</span>
       </h4>
       <p className="text-zinc-600 text-base md:text-[1rem]">
-        I am a passionate web developer with a BSc in Computer Science from the
-        University of Mumbai. Skilled in web development and application
-        building, I specialize in using HTML, CSS, JavaScript, and the MERN
-        stack (MongoDB, ExpressJS, ReactJS, NodeJS) to create seamless,
-        user-focused web applications. With 7 months of hands-on MERN experience
-        and 3 years of expertise in PHP and MySQL, I bring a strong foundation
-        in back-end and front-end development. I am also proficient with
-        TailwindCSS, Bootstrap, secure authentication systems, JWT, and API
-        integration, continuously expanding my knowledge to solve complex
-        problems with innovative solutions.
+        I’m a full-stack web developer with 4+ years of experience, specializing
+        in building responsive, high-performance applications. Proficient in
+        HTML, CSS, JavaScript, PHP, MySQL, and the MERN stack (MongoDB,
+        Express.js, React.js, Node.js), I create seamless frontend experiences
+        with TailwindCSS, Bootstrap, and Next.js. My expertise includes secure
+        authentication, API development, website optimization, and cloud
+        integrations with Cloudinary and Firebase. I deploy projects on Vercel,
+        Render, Netlify, and VPS, ensuring scalability and efficiency.
+        Passionate about solving complex problems, I continuously explore new
+        technologies to deliver impactful digital solutions.
       </p>
-      <div>
-        <h5 className="text-lg font-medium text-neutral-700">Top 5 Skills</h5>
-        <ul
-          className="mt-4 flex flex-wrap items-center gap-4"
-          aria-label="List of top skills"
-        >
-          <li className="border-dashed border-gray-200 border rounded-full px-5 py-1 text-zinc-600 hover:text-[#00BC91] cursor-pointer transition-all ease-in-out duration-200">
-            ExpressJS
-          </li>
-          <li className="border-dashed border-gray-200 border rounded-full px-5 py-1 text-zinc-600 hover:text-[#00BC91] cursor-pointer transition-all ease-in-out duration-200">
-            ReactJS
-          </li>
-          <li className="border-dashed border-gray-200 border rounded-full px-5 py-1 text-zinc-600 hover:text-[#00BC91] cursor-pointer transition-all ease-in-out duration-200">
-            JavaScript
-          </li>
-          <li className="border-dashed border-gray-200 border rounded-full px-5 py-1 text-zinc-600 hover:text-[#00BC91] cursor-pointer transition-all ease-in-out duration-200">
-            MongoDB
-          </li>
-          <li className="border-dashed border-gray-200 border rounded-full px-5 py-1 text-zinc-600 hover:text-[#00BC91] cursor-pointer transition-all ease-in-out duration-200">
-            NodeJS
-          </li>
-        </ul>
-      </div>
+
       <div className="mt-3" aria-label="Contact information">
         <ul className="flex flex-col md:flex-row items-center gap-3 justify-between">
           <li>

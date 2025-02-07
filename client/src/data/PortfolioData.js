@@ -1,13 +1,14 @@
-import portfolio1 from "../img/portfolio1.png";
-import portfolio2 from "../img/portfolio2.jpg";
-import portfolio3 from "../img/portfolio3.jpg";
+import portfolio1 from "../img/portfolio1.webp";
+import portfolio2 from "../img/portfolio2.webp";
+import portfolio3 from "../img/portfolio3.webp";
 import portfolio4 from "../img/portfolio4.webp";
 import portfolio5 from "../img/portfolio5.webp";
-import portfolio6 from "../img/portfolio6.jpg";
+import portfolio6 from "../img/portfolio6.webp";
 import portfolio7 from "../img/portfolio7.webp";
-import portfolio8 from "../img/portfolio8.jpg";
+import portfolio8 from "../img/portfolio8.webp";
 import portfolio9 from "../img/portfolio9.webp";
-import portfolio10 from "../img/portfolio10.jpg";
+import portfolio10 from "../img/portfolio10.webp";
+import portfolio11 from "../img/portfolio11.webp";
 
 const PortfolioData = [
   {
@@ -17,6 +18,14 @@ const PortfolioData = [
     description:
       "Saisio is a fully responsive SaaS website built with ReactJS (Vite) and TailwindCSS, featuring a sleek UI/UX with smooth animations. It includes dynamic pages like Home, Pricing, Blog, Integrations, Register/Login, and more, offering a seamless user experience. This project is free to use and perfect for SaaS or web app inspiration.",
     link: "https://github.com/pawantech12/saisio-saas-website",
+  },
+  {
+    id: 11,
+    title: "Markdown Editor - Feature-Rich Markdown Writing Tool",
+    image: portfolio11,
+    description:
+      "A free, lightweight Markdown Editor built with ReactJS and TailwindCSS for seamless writing, editing, and managing Markdown files. It features real-time preview, import/export options, word/line/character counters, a customizable section-based editor, and a clean, responsive UI. Perfect for developers, writers, and content creators. 🚀",
+    link: "https://github.com/pawantech12/markdown-editor-reactjs",
   },
   {
     id: 1,

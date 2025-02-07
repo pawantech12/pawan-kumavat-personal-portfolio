@@ -1,8 +1,7 @@
 import { FaLaptopCode } from "react-icons/fa6";
-import { GrOptimize, GrServers } from "react-icons/gr";
+import { GrOptimize, GrServers, GrServices } from "react-icons/gr";
 import { MdDevices, MdOutlineStorefront } from "react-icons/md";
 import { TbSettingsCode, TbUserShield, TbWorldUpload } from "react-icons/tb";
-
 const services = [
   {
     id: 1,
@@ -60,6 +59,20 @@ const services = [
       "Deploying web applications on reliable platforms like Vercel, Render,hostinger(VPS Hosting) along with setting up hosting environments and managing domain configurations.",
     icon: "TbWorldUpload",
   },
+  {
+    id: 9,
+    title: "SaaS Website Development",
+    description:
+      "Building scalable Software-as-a-Service (SaaS) applications with subscription-based models, authentication systems, and cloud-based deployment for efficiency and reliability.",
+    icon: "GrServices",
+  },
+  {
+    id: 10,
+    title: "Custom Web Application Development",
+    description:
+      "Developing tailor-made web applications based on specific business needs, including dashboards, admin panels, and interactive tools with a focus on scalability and usability.",
+    icon: "FaLaptopCode",
+  },
 ];
 
 export {
@@ -72,4 +85,5 @@ export {
   TbSettingsCode,
   TbUserShield,
   TbWorldUpload,
+  GrServices,
 };
