@@ -9,8 +9,26 @@ import portfolio8 from "../img/portfolio8.webp";
 import portfolio9 from "../img/portfolio9.webp";
 import portfolio10 from "../img/portfolio10.webp";
 import portfolio11 from "../img/portfolio11.webp";
+import portfolio12 from "../img/portfolio12.webp";
+import portfolio13 from "../img/portfolio13.webp";
 
 const PortfolioData = [
+  {
+    id: 13,
+    title: "PlaceToVisitIndia – Travel Guide Website (Next.js Frontend)",
+    image: portfolio13,
+    description:
+      "PlaceToVisitIndia is a feature-rich travel guide website designed to help users explore India’s top destinations. Originally built with React, I successfully migrated its frontend to Next.js while ensuring seamless integration with the existing backend. The website includes a dynamic homepage with a hero slider, travel categories, latest blogs, trending destinations, and a virtual travel section with embedded YouTube videos. Users can explore detailed destination pages with photo galleries, FAQs, and related travel suggestions. The platform also features a blog system, contact page, about page, and policy pages, providing a comprehensive travel resource. This project highlights my expertise in Next.js, performance optimization, and frontend development. 🚀",
+    link: "https://www.placestovisitindia.com/",
+  },
+  {
+    id: 12,
+    title: "Shopco - Modern E-Commerce Website",
+    image: portfolio12,
+    description:
+      "🚀 Shopco is a sleek and fully responsive e-commerce frontend built with React, Vite, and Tailwind CSS. It delivers a seamless shopping experience with a clean UI and essential e-commerce features. The project includes a Home Page, Product List with Filters, Product Details Page, and a Cart Page for easy item management. Optimized for speed and performance, Shopco ensures a smooth user experience across all devices. 🚀✨",
+    link: "https://shopco-website.vercel.app/",
+  },
   {
     id: 10,
     title: "Saisio - Responsive SaaS Website",

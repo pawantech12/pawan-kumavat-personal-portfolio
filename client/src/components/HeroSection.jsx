@@ -26,9 +26,14 @@ const HeroSection = ({ portfolioRef }) => {
               words={[
                 "Frontend Developer",
                 "Backend Developer",
-                "MERN Developer",
-                "Web Developer!",
                 "Full Stack Developer",
+                "MERN Stack Developer",
+                "React Developer",
+                "Next.js Developer",
+                "Web Developer",
+                "Software Developer",
+                "UI/UX Developer",
+                "E-commerce Developer",
               ]}
               loop={true}
               cursor

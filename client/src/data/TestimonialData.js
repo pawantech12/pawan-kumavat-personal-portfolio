@@ -41,6 +41,12 @@ const testimonials = [
     message:
       "Pawan did an excellent job developing my e-commerce website with Razorpay payment integration. The site is fast, secure, and user-friendly. Highly recommended!",
   },
+  {
+    name: "Manoj Sharma",
+    designation: "Backend Developer",
+    message:
+      "Pawan did an excellent job migrating our React frontend to Next.js, ensuring seamless integration with the backend. His expertise in Next.js and Tailwind CSS greatly improved performance and user experience. Highly recommended!",
+  },
 ];
 
 export default testimonials;

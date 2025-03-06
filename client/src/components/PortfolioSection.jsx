@@ -2,8 +2,19 @@ import { FaChevronRight } from "react-icons/fa6";
 import { LuLayoutList } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import PortfolioData from "../data/PortfolioData";
+import { useState } from "react";
 
 const PortfolioSection = ({ portfolioRef }) => {
+  const [visibleCount, setVisibleCount] = useState(6);
+  const [loading, setLoading] = useState(false);
+
+  const handleLoadMore = () => {
+    setLoading(true);
+    setTimeout(() => {
+      setVisibleCount((prev) => prev + 3);
+      setLoading(false);
+    }, 1000); // Simulating loading animation
+  };
   return (
     <section
       className="my-8 px-6 sm:mx-10 sm:px-8 md:px-10 lg:mx-20 py-10 flex flex-col gap-5 bg-white rounded-xl lg:px-20"
@@ -25,7 +36,7 @@ const PortfolioSection = ({ portfolioRef }) => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
         {PortfolioData &&
-          PortfolioData.map((portfolio, index) => (
+          PortfolioData.slice(0, visibleCount).map((portfolio, index) => (
             <div key={index} className="p-4 shadow-custom rounded-xl group">
               <figure className="w-full h-48 2xl:h-64">
                 <img
@@ -61,6 +72,25 @@ const PortfolioSection = ({ portfolioRef }) => {
             </div>
           ))}
       </div>
+      {/* Load More Button */}
+      {visibleCount < PortfolioData.length && (
+        <div className="flex justify-center mt-6">
+          <button
+            onClick={handleLoadMore}
+            className="px-6 py-2 bg-emerald-500 text-white font-medium rounded-lg hover:bg-emerald-600 transition-all ease-in-out duration-200 flex justify-center items-center gap-2"
+            disabled={loading}
+          >
+            {loading ? (
+              <>
+                <span className="animate-spin border-2 border-white border-t-transparent rounded-full w-5 h-5"></span>
+                <span>Loading...</span>
+              </>
+            ) : (
+              "Load More"
+            )}
+          </button>
+        </div>
+      )}
     </section>
   );
 };
