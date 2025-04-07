@@ -11,8 +11,26 @@ import portfolio10 from "../img/portfolio10.webp";
 import portfolio11 from "../img/portfolio11.webp";
 import portfolio12 from "../img/portfolio12.webp";
 import portfolio13 from "../img/portfolio13.webp";
+import portfolio14 from "../img/portfolio14.webp";
+import portfolio15 from "../img/portfolio15.webp";
 
 const PortfolioData = [
+  {
+    id: 14,
+    title: "Saasify - Modern SaaS Landing Page",
+    image: portfolio14,
+    description:
+      "Saasify - A modern, fully responsive SaaS landing page built with Next.js, TailwindCSS, ShadCN, and Framer Motion, featuring dark/light mode, dynamic pages, and smooth animations. 🚀",
+    link: "https://github.com/pawantech12/saasify-landing-website",
+  },
+  {
+    id: 15,
+    title: "FreelanceTrack – Full Stack App for Freelancers",
+    image: portfolio15,
+    description:
+      "FreelanceTrack is a full-stack web app for freelancers to manage their projects, clients, referrals, testimonials, and finances — all from a single intuitive dashboard. Built with Next.js, Tailwind CSS, Clerk, and MongoDB.",
+    link: "https://github.com/pawantech12/freelancetrack-website",
+  },
   {
     id: 13,
     title: "PlaceToVisitIndia – Travel Guide Website (Next.js Frontend)",
