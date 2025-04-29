@@ -13,8 +13,26 @@ import portfolio12 from "../img/portfolio12.webp";
 import portfolio13 from "../img/portfolio13.webp";
 import portfolio14 from "../img/portfolio14.webp";
 import portfolio15 from "../img/portfolio15.webp";
+import portfolio16 from "../img/portfolio16.webp";
+import portfolio17 from "../img/portfolio17.webp";
 
 const PortfolioData = [
+  {
+    id: 17,
+    title: "AppNest - App Landing Page",
+    image: portfolio17,
+    description:
+      "AppNest is a modern, fully responsive app landing page built with Next.js, TailwindCSS, and shadcn/ui, featuring sleek sections like hero, features, pricing, testimonials, FAQ, and more — perfect for showcasing any mobile or web application.",
+    link: "https://github.com/pawantech12/appnest-app-landing-website",
+  },
+  {
+    id: 16,
+    title: "DashNest - Modern Responsive Dashboard",
+    image: portfolio16,
+    description:
+      "DashNest is a modern, responsive dashboard built with Next.js, TailwindCSS, and Shadcn UI, featuring analytics, chat, meetings, invoices, projects, payments, and more — designed for seamless management and user experience.",
+    link: "https://github.com/pawantech12/dashnest-dashboard",
+  },
   {
     id: 14,
     title: "Saasify - Modern SaaS Landing Page",
