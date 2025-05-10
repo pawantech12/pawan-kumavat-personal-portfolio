@@ -15,8 +15,26 @@ import portfolio14 from "../img/portfolio14.webp";
 import portfolio15 from "../img/portfolio15.webp";
 import portfolio16 from "../img/portfolio16.webp";
 import portfolio17 from "../img/portfolio17.webp";
+import portfolio18 from "../img/portfolio18.webp";
+import portfolio19 from "../img/portfolio19.webp";
 
 const PortfolioData = [
+  {
+    id: 19,
+    title: "Wonderlust – Responsive Travel Agency Website",
+    image: portfolio19,
+    description:
+      "Wonderlust is a modern, responsive travel agency website built with Next.js, TailwindCSS, and shadcn/ui. It features beautifully designed pages for Home, About, Destinations, Packages, and Contact—perfect for showcasing travel services with a clean and engaging user experience.",
+    link: "https://github.com/pawantech12/wonderlust-travel-agency-website",
+  },
+  {
+    id: 18,
+    title: "Eduvista – Multi-page School Landing Website",
+    image: portfolio18,
+    description:
+      "Eduvista is a modern, responsive multipage school landing website built with Next.js, Tailwind CSS, and ShadCN UI, featuring clean design and pages like Home, About, Academics, Admissions, and Contact.",
+    link: "https://github.com/pawantech12/eduvista-school-website",
+  },
   {
     id: 17,
     title: "AppNest - App Landing Page",
