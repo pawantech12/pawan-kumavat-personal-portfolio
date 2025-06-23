@@ -17,8 +17,44 @@ import portfolio16 from "../img/portfolio16.webp";
 import portfolio17 from "../img/portfolio17.webp";
 import portfolio18 from "../img/portfolio18.webp";
 import portfolio19 from "../img/portfolio19.webp";
+import portfolio20 from "../img/portfolio20.webp";
+import portfolio21 from "../img/portfolio21.webp";
+import portfolio22 from "../img/portfolio22.webp";
+import portfolio23 from "../img/portfolio23.webp";
 
 const PortfolioData = [
+  {
+    id: 23,
+    title: "Podcastify – Modern Podcast Website",
+    image: portfolio23,
+    description:
+      "Podcastify is a modern and responsive podcast platform built with Next.js, Tailwind CSS, and ShadCN UI. It features pages for home, about, contact, hosts, guests, episode listings and details, blog articles, FAQs, and subscription—all designed to deliver a seamless user experience for podcast lovers and creators.",
+    link: "https://github.com/pawantech12/podcastify-website",
+  },
+  {
+    id: 22,
+    title: "MathTools Pro – Math Utility Web App",
+    image: portfolio22,
+    description:
+      "MathTools Pro is a modern and responsive math utility web app built with Next.js, TailwindCSS, and shadcn/ui. It offers tools for calculating area, perimeter, volume, percentages, speed-distance-time, and more — designed for students, teachers, and everyday users.",
+    link: "https://github.com/pawantech12/mathtoolspro",
+  },
+  {
+    id: 21,
+    title: "ResumeForge – Resume Builder Website",
+    image: portfolio21,
+    description:
+      "ResumeForge is a modern full-stack resume builder built with Next.js, MongoDB, TailwindCSS, Clerk, and shadcn/ui. It allows users to create, preview, share (with password and expiry), and download resumes with a clean dashboard experience.",
+    link: "https://github.com/pawantech12/resumeforge-resume-builder",
+  },
+  {
+    id: 20,
+    title: "Estate – Real Estate Website",
+    image: portfolio20,
+    description:
+      "A modern, responsive real estate platform built with Next.js, Tailwind CSS, and shadcn/ui. Includes property listings, agent profiles, authentication (login/signup/OTP), and user favorites. Ideal for agencies and rental platforms, featuring SEO-ready pages and a clean UI.",
+    link: "https://github.com/pawantech12/estate-website",
+  },
   {
     id: 19,
     title: "Wonderlust – Responsive Travel Agency Website",
